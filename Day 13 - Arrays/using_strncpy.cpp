@@ -1,4 +1,4 @@
-// Listing 13.3 - Using strncpy() (P.436)
+// Listing 13.13 - Using strncpy() (P.436)
 #include <iostream>
 #include <string.h>
 
