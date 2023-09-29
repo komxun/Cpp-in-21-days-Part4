@@ -24,7 +24,7 @@ https://github.com/komxun/Cpp-in-21-days-Part4/blob/659f3409a785de3b0bc6ce5c4598
 
 https://github.com/komxun/Cpp-in-21-days-Part4/blob/659f3409a785de3b0bc6ce5c45988695d964bf43/Day%2013%20-%20Arrays/Arrays_of_Objects.cpp#L5-L32
 
-# Multidimensional Arrays
+# Multidimensional Arrays (Matrix)
 ## Initializing Multidimensional Arrays
 ```cpp
 int theArray[5][3] = { {1,2,3},
@@ -33,3 +33,5 @@ int theArray[5][3] = { {1,2,3},
   {10,11,12},
   {13,14,15}};   // for easy understanding
 ```
+
+# Array of Pointers
