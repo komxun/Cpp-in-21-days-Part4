@@ -35,3 +35,25 @@ int theArray[5][3] = { {1,2,3},
 ```
 
 # Array of Pointers
+
+# C-style string
+- An array of characters that is terminated by a **null**
+- Ex:
+```cpp
+char Greeting[] =
+{'H','e','l','l','o', ' ', 'W','o','r','l','d','\0'};
+// This is equivalent to
+char Greeting2[] = "Hello World";
+```
+- The last character, `\0`, is the null character, telling c++ to terminate
+- For double-quoted string, the compiler automatically add the null character for you
+- `Hello World` is 12 bytes: Hello=5 bytes, space=1byte, World=5 bytes, and the null character is 1 byte
+
+# `strcpy()` and `strncpy()`
+- `strcpy(String2, String1)` copies the **entire contents** of one string into a designated buffer
+- `strncpy(String2, String1, MaxLength)` copies **a number of characters** from one string to another
+- If the source is larger than the destination, `strcpy()` overwrites past the end of the buffer
+
+https://github.com/komxun/Cpp-in-21-days-Part4/blob/5c19cf12e86a85bf734b69d684b5bf54fa50b04d/Day%2013%20-%20Arrays/using_strcpy.cpp#L1-L16
+
+https://github.com/komxun/Cpp-in-21-days-Part4/blob/5c19cf12e86a85bf734b69d684b5bf54fa50b04d/Day%2013%20-%20Arrays/using_strncpy.cpp#L1-L16
